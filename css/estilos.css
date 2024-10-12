@@ -1,0 +1,357 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #211818;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+.menubotones ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menubotones li {
+    margin: 0 10px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.menubotones li a{
+    color: beige;
+    text-decoration: none;
+}
+
+.menubotones ul li a{
+    color:#d4d5d6;
+}
+
+.menubotones li :hover{
+    color: #e08e4b;
+    text-decoration: none;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.7);
+    padding-bottom: 2px;
+}
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #dfd6d6;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+
+.principal {
+    background-image: url('../imagen/pexels-googledeepmind-17484970.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+    font-family: "Josefin Sans";
+    color: #f0ecec;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    font-family: "Oswald";
+    color: #101312;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+    font-family: "Playfair Display";
+    color: #121614;
+    text-transform: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #83dbdb;
+    color: rgb(44, 40, 40);
+    font-family: "Merriweather";
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.button:hover {
+    background-color: #3dcde0;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/pexels-dzeninalukac-1520372.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contenidodos h2{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-family: "Oswald";
+    color: #2ecfac;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 25px;
+
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #faf7f7;
+    font-size: 18px;
+}
+.figuras a:hover {
+   
+    color: #f3e306;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #c24592;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-family: "Bebas Neue";
+    color: #2ecfac;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .galeria p {
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    line-height:5px ;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #04416a;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Bebas Neue";
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #55cdeb;
+    color: #161618;
+    text-decoration: none;
+    border: 5px solid #000000;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #0056b3;
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #000000;
+    color: #59dfbd;
+    padding: 40px;
+    line-height: 2px;
+    text-align: center;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+  
+  h3, p {
+    color: #fff;
+    margin: 0;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+  }
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Cambia esto según el color que desees para el hover */
+}
+  
+h4 {
+  text-align: center;
+  color: #2ecfac;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+}
+  
